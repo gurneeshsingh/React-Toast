@@ -37,8 +37,8 @@ export default function Toast() {
                         <Button
                             color="primary"
                             size="small"
-                          disabled={isSavingCurrentToast}
-                          onClick={saveCurrentToast}
+                            disabled={isSavingCurrentToast}
+                            onClick={saveCurrentToast}
                         >
                             {isSavingCurrentToast ? (<CircularProgress />) : "Like"}
                         </Button>
@@ -46,7 +46,7 @@ export default function Toast() {
                             size="small"
                             aria-label="close"
                             color="inherit"
-                          onClick={closeToast}
+                            onClick={closeToast}
                         >
                             <CloseIcon fontSize="small" />
                         </IconButton>
