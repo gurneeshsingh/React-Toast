@@ -1,3 +1,15 @@
+## Setup
+
+* Must have recent versions of `git` and `node` installed
+* Use any editor or other tools
+
+Once you have the files on your computer (after unzipping), run:
+
+```shell
+git init
+npm install
+npm start
+```
 
 Create React App README
 ================
